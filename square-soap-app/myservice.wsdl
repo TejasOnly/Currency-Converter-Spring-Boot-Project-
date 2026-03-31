@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<definitions name="SquareService"
+             targetNamespace="http://localhost:8000/wsdl"
+             xmlns:tns="http://localhost:8000/wsdl"
+             xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/"
+             xmlns:xsd="http://www.w3.org/2001/XMLSchema"
+             xmlns="http://schemas.xmlsoap.org/wsdl/">
+
+  <message name="calculateSquareRequest">
+    <part name="number" type="xsd:int"/>
+  </message>
+  
+  <message name="calculateSquareResponse">
+    <part name="result" type="xsd:int"/>
+  </message>
+
+  <portType name="SquarePortType">
+    <operation name="calculateSquare">
+      <input message="tns:calculateSquareRequest"/>
+      <output message="tns:calculateSquareResponse"/>
+    </operation>
+  </portType>
+
+  <binding name="SquareBinding" type="tns:SquarePortType">
+    <soap:binding style="rpc" transport="http://schemas.xmlsoap.org/soap/http"/>
+    <operation name="calculateSquare">
+      <soap:operation soapAction="calculateSquare"/>
+      <input>
+        <soap:body use="literal" namespace="http://localhost:8000/wsdl"/>
+      </input>
+      <output>
+        <soap:body use="literal" namespace="http://localhost:8000/wsdl"/>
+      </output>
+    </operation>
+  </binding>
+
+  <service name="SquareService">
+    <port name="SquarePort" binding="tns:SquareBinding">
+      <soap:address location="http://localhost:8000/wsdl"/>
+    </port>
+  </service>
+</definitions>

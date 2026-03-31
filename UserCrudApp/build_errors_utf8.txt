@@ -1,0 +1,23 @@
+﻿  Determining projects to restore...
+  All projects are up-to-date for restore.
+C:\Users\shoeb\.gemini\antigravity\scratch\UserCrudApp\Models\User.cs(12,23): warning CS8618: Non-nullable property 'Name' must contain a non-null value when exiting constructor. Consider adding the 'required' modifier or declaring the property as nullable. [C:\Users\shoeb\.gemini\antigravity\scratch\UserCrudApp\UserCrudApp.csproj]
+C:\Users\shoeb\.gemini\antigravity\scratch\UserCrudApp\Models\User.cs(17,23): warning CS8618: Non-nullable property 'Email' must contain a non-null value when exiting constructor. Consider adding the 'required' modifier or declaring the property as nullable. [C:\Users\shoeb\.gemini\antigravity\scratch\UserCrudApp\UserCrudApp.csproj]
+C:\Users\shoeb\.gemini\antigravity\scratch\UserCrudApp\Models\User.cs(21,23): warning CS8618: Non-nullable property 'city' must contain a non-null value when exiting constructor. Consider adding the 'required' modifier or declaring the property as nullable. [C:\Users\shoeb\.gemini\antigravity\scratch\UserCrudApp\UserCrudApp.csproj]
+C:\Users\shoeb\.gemini\antigravity\scratch\UserCrudApp\Migrations\AppDbContextModelSnapshot.cs(22,13): error CS0103: The name 'SqlServerModelBuilderExtensions' does not exist in the current context [C:\Users\shoeb\.gemini\antigravity\scratch\UserCrudApp\UserCrudApp.csproj]
+C:\Users\shoeb\.gemini\antigravity\scratch\UserCrudApp\Migrations\AppDbContextModelSnapshot.cs(30,21): error CS0103: The name 'SqlServerPropertyBuilderExtensions' does not exist in the current context [C:\Users\shoeb\.gemini\antigravity\scratch\UserCrudApp\UserCrudApp.csproj]
+C:\Users\shoeb\.gemini\antigravity\scratch\UserCrudApp\Migrations\20260326063414_InitialCreate.Designer.cs(25,13): error CS0103: The name 'SqlServerModelBuilderExtensions' does not exist in the current context [C:\Users\shoeb\.gemini\antigravity\scratch\UserCrudApp\UserCrudApp.csproj]
+C:\Users\shoeb\.gemini\antigravity\scratch\UserCrudApp\Migrations\20260326063414_InitialCreate.Designer.cs(33,21): error CS0103: The name 'SqlServerPropertyBuilderExtensions' does not exist in the current context [C:\Users\shoeb\.gemini\antigravity\scratch\UserCrudApp\UserCrudApp.csproj]
+
+Build FAILED.
+
+C:\Users\shoeb\.gemini\antigravity\scratch\UserCrudApp\Models\User.cs(12,23): warning CS8618: Non-nullable property 'Name' must contain a non-null value when exiting constructor. Consider adding the 'required' modifier or declaring the property as nullable. [C:\Users\shoeb\.gemini\antigravity\scratch\UserCrudApp\UserCrudApp.csproj]
+C:\Users\shoeb\.gemini\antigravity\scratch\UserCrudApp\Models\User.cs(17,23): warning CS8618: Non-nullable property 'Email' must contain a non-null value when exiting constructor. Consider adding the 'required' modifier or declaring the property as nullable. [C:\Users\shoeb\.gemini\antigravity\scratch\UserCrudApp\UserCrudApp.csproj]
+C:\Users\shoeb\.gemini\antigravity\scratch\UserCrudApp\Models\User.cs(21,23): warning CS8618: Non-nullable property 'city' must contain a non-null value when exiting constructor. Consider adding the 'required' modifier or declaring the property as nullable. [C:\Users\shoeb\.gemini\antigravity\scratch\UserCrudApp\UserCrudApp.csproj]
+C:\Users\shoeb\.gemini\antigravity\scratch\UserCrudApp\Migrations\AppDbContextModelSnapshot.cs(22,13): error CS0103: The name 'SqlServerModelBuilderExtensions' does not exist in the current context [C:\Users\shoeb\.gemini\antigravity\scratch\UserCrudApp\UserCrudApp.csproj]
+C:\Users\shoeb\.gemini\antigravity\scratch\UserCrudApp\Migrations\AppDbContextModelSnapshot.cs(30,21): error CS0103: The name 'SqlServerPropertyBuilderExtensions' does not exist in the current context [C:\Users\shoeb\.gemini\antigravity\scratch\UserCrudApp\UserCrudApp.csproj]
+C:\Users\shoeb\.gemini\antigravity\scratch\UserCrudApp\Migrations\20260326063414_InitialCreate.Designer.cs(25,13): error CS0103: The name 'SqlServerModelBuilderExtensions' does not exist in the current context [C:\Users\shoeb\.gemini\antigravity\scratch\UserCrudApp\UserCrudApp.csproj]
+C:\Users\shoeb\.gemini\antigravity\scratch\UserCrudApp\Migrations\20260326063414_InitialCreate.Designer.cs(33,21): error CS0103: The name 'SqlServerPropertyBuilderExtensions' does not exist in the current context [C:\Users\shoeb\.gemini\antigravity\scratch\UserCrudApp\UserCrudApp.csproj]
+    3 Warning(s)
+    4 Error(s)
+
+Time Elapsed 00:00:01.73

@@ -1,0 +1,13 @@
+{
+  "name": "square-soap-app",
+  "version": "1.0.0",
+  "description": "Square SOAP app developed by Roshika Arun",
+  "main": "server.js",
+  "dependencies": {
+    "express": "^4.22.1",
+    "soap": "^1.8.0"
+  },
+  "scripts": {
+    "start": "node server.js"
+  }
+}
